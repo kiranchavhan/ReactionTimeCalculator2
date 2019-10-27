@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/wow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/design_default_color_primary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="416dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:gravity="center"
+        android:text="Reaction Time Calculator"
+        android:textColor="#000000"
+        android:textFontWeight="54"
+        android:textSize="26sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="117dp"
+        android:layout_height="109dp"
+        android:background="@color/design_default_color_primary"
+        app:srcCompat="@drawable/circle1"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="410dp"
+        android:layout_height="86dp"
+        android:gravity="center_vertical"
+        android:textColor="#F8000000"
+        android:textSize="38sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</android.support.constraint.ConstraintLayout>
